@@ -1,0 +1,106 @@
+---
+import {Icon}from 'astro-icon/components';
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Astro Icon</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            
+            <h1>Astro Icon</h1>
+
+            <hr />
+    
+        <div class="icon-container">
+        <a href="https://youtube.com">      
+            <Icon name="resume" width={100}height={100} />
+        </a>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui aspernatur sunt odio voluptas aliquid perferendis dicta, molestias dolore quos voluptates officia eaque a ducimus incidunt odit, atque sed rerum quae illo sint. Fugiat, autem natus. Facilis iure ea est expedita aut sapiente dolores libero rerum veniam dolore nobis nisi qui error sit odit nam, nesciunt labore ducimus vero, perspiciatis doloremque! Veniam ullam, provident, sunt vero ipsum laboriosam ut, nihil sit modi quae natus quas debitis ab minus enim eos fugit!
+        </p>        
+        </div>
+    
+    
+        <div class="icon-container">
+
+        <a href="https://yahoo.com">        
+            <Icon name="design" width={100}height={100}/>
+        </a>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt hic officia eum esse? Voluptas mollitia illum, molestiae doloremque esse sequi eius et. Quae quis at rerum accusantium officia distinctio neque possimus beatae explicabo dolorem. Voluptas, minima eligendi? Quo, culpa. Temporibus cum eligendi officia, obcaecati et accusamus illum. Reiciendis voluptatum beatae natus temporibus, quaerat voluptatibus. Maiores, totam aliquam. Inventore impedit adipisci voluptates molestiae! Molestias debitis hic itaque! Voluptatum nemo ad voluptatem sapiente officia impedit quam, voluptatibus itaque iste sint, mollitia eos.
+        </p>
+        </div>
+    
+        
+        <div class="icon-container">
+            <a href="https://twitter.com">      
+                <Icon name="programming" width={100}height={100}/>
+            </a>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptates beatae dolorem hic sed. Doloribus accusantium explicabo at perferendis quaerat sed aliquam neque voluptate distinctio aperiam nam, dolorum alias commodi officiis veniam iusto. Optio culpa non aut quam, neque id minus inventore quibusdam placeat nisi saepe, illo velit dolor facere libero quia magnam esse quos rerum natus? Cupiditate tempora optio porro obcaecati aut vitae quidem temporibus ex at sint in perferendis perspiciatis nam voluptatem labore, ut ipsam pariatur praesentium quam.
+        </p>
+        </div>
+    
+        <div class="icon-container">
+            <a href="https://instagram.com">        
+                <Icon name="businessman" width={100}height={100}/>
+            </a>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque laudantium libero, sit ex ipsa magni sed ea laboriosam perferendis, aut placeat dolorum exercitationem eligendi, sapiente quis temporibus reprehenderit. Veritatis voluptas illo obcaecati maiores error accusantium quis eligendi reiciendis explicabo temporibus minima, iure, enim fugiat animi, dolores saepe cumque vitae doloremque laudantium. Dolorem quas ut sed porro rerum dolorum, inventore deserunt laborum, sunt illum, temporibus ipsum ullam quaerat et ducimus hic repellat quos. Suscipit ducimus quibusdam consectetur enim id consequatur.
+            </p>
+            </div>
+
+            <div class="icon-container">
+                <a href="https://github.com">       
+                    <Icon name="certificate" width={100}height={100}/>
+                </a>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti doloremque laudantium libero, sit ex ipsa magni sed ea laboriosam perferendis, aut placeat dolorum exercitationem eligendi, sapiente quis temporibus reprehenderit. Veritatis voluptas illo obcaecati maiores error accusantium quis eligendi reiciendis explicabo temporibus minima, iure, enim fugiat animi, dolores saepe cumque vitae doloremque laudantium. Dolorem quas ut sed porro rerum dolorum, inventore deserunt laborum, sunt illum, temporibus ipsum ullam quaerat et ducimus hic repellat quos. Suscipit ducimus quibusdam consectetur enim id consequatur.
+                </p>
+                </div>
+                </div>
+            
+    
+        </div>
+    </body>
+</html>
+<style>
+    h1
+    {
+        text-align: center;
+    }
+
+    #wrapper
+    {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .icon-container
+    {
+        background-color: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        line-height: 1.7;
+        gap: 2rem;
+    }
+    [data-icon="career"]
+    {
+        color:black;
+        min-width: 100px;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        transition: all 0.25s;
+    }
+    [data-icon="career"]:hover
+    {
+        transform: rotate(26deg);
+    }
+</style>
